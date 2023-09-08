@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    height: 64px;
+    margin: auto;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*----------nav------------*/
+
+nav{
+    background-color: black;
+}
+
+nav ul {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+nav ul li  {
+    display: inline-block;
+}
+
+nav ul li a {
+    color:rgb(226, 209, 222);
+    font-size: 12px;
+}
+
+nav ul li:nth-child(2) a {
+    color:blueviolet;
+}
+
+nav ul li:nth-child(2) i {
+    color: rgb(218, 231, 26);
+    font-size: 15px;
+    margin-left: 3px;
+}
+
+nav ul li:nth-child(3)  {
+    position: relative;
+}
+
+nav ul li:nth-child(3) input {
+    height: 30px;
+    width: 100%;
+    border-radius: 6px;
+    border: none;
+    padding-left: 6px;
+    outline: none;
+}
+
+nav ul li:nth-child(3) i{
+    color: rgb(231, 74, 26);
+    font-size: 20px;
+    position: absolute;
+    right: 12px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+nav ul li:nth-child(4) button{
+    height: 30px;
+    width: 100px;
+    color: aliceblue;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 2px;
+    transition: all 0.5s ease;
+}
+
+nav ul li:nth-child(4) button i{
+    margin-right: 6px;
+    color: rgb(218, 231, 26);
+}
+
+nav ul li:nth-child(4) button:hover{
+    background-color: blueviolet;
+}
+
+nav ul li:nth-child(5):hover a{
+    color: blueviolet;
+}
+
+nav ul li:nth-child(6):hover a{
+    color: blueviolet;
+}
+
+nav ul li:nth-child(7):hover a{
+    color: blueviolet;
+}
+
+nav ul li:nth-child(8):hover a{
+    color: blueviolet;
+}
+
+/*-------------Menu-bar-----------*/
+
+.menu-bar {
+    background-color: blueviolet;
+    padding: 12px;
+}
+
+.menu-bar ul{
+    justify-content: space-between;
+    display: flex
+}
